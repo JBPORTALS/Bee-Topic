@@ -8,7 +8,6 @@
  */
 import { auth } from "@clerk/nextjs/server";
 import { initTRPC, TRPCError } from "@trpc/server";
-import { CreateNextContextOptions } from "@trpc/server/adapters/next";
 import RP from "razorpay";
 import superjson from "superjson";
 import { ZodError } from "zod";
